@@ -1,5 +1,3 @@
 package com.github.sguzman.scala.uber.args
 
-class Cmd {
-
-}
+case class Cmd(cookie: String = "")
