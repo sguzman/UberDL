@@ -4,8 +4,8 @@ import java.util.UUID
 
 case class Trip(
                dropOffAddress: Option[String],
-               marketplace: String,
-               licensePlate: String,
+               marketplace: Option[String],
+               licensePlate: Option[String],
                customRouteMap: Option[String],
                totalToll: Option[String],
                cashCollected: Option[String],

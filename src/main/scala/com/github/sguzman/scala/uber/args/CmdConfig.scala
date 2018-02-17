@@ -4,7 +4,7 @@ case class CmdConfig(title: String = "GoldMiner") extends scopt.OptionParser[Cmd
   head(title, "1.0")
 
   opt[String]('c', "cookie")
-    .text("Perm Number")
+    .text("Cookie")
     .required()
     .valueName("<cookie>")
     .minOccurs(1)
